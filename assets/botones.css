@@ -1,4 +1,4 @@
-.sizes button{
+button{
     background-color:  rgb(242, 242, 242);
     border-radius: 0.4em;
     border: none;
@@ -6,7 +6,7 @@
 
 }
 #normal-button{
-    padding: 0.75em;    
+    padding: 0.55em;    
     font-size: 1em;
 }
 #little-button{
@@ -15,5 +15,29 @@
 }
 #big-button{
     font-size: 1.5em;
-    padding: 0.8em 0.5em;
+    padding: 0.6em;
+}
+
+.colors button{
+    font-size: 1em;
+    padding: 0.67em 1.3em;
+    color: rgb(248, 248, 248);
+}
+.colors #esmerald{
+    background-color: #50c878;
+}
+.colors #sky{
+    background-color: rgb(39, 151, 196);
+}
+.colors #amatist{
+    background-color: #9966cc;
+}
+.colors #asphalt{
+    background-color: #7F7F7F;
+}
+.colors #topaz{
+    background-color: #FFC87C;
+}
+.colors #rubi{
+    background-color: #d1404e;
 }
