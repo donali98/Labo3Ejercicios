@@ -1,8 +1,19 @@
-#normal-button{
+.sizes button{
     background-color:  rgb(242, 242, 242);
-    font-size: 1em;
     border-radius: 0.4em;
-    padding: 0.58em 1em;
-    color: rgb(146, 145, 145);
     border: none;
+    color: rgb(146, 145, 145);
+
+}
+#normal-button{
+    padding: 0.75em;    
+    font-size: 1em;
+}
+#little-button{
+    font-size: 0.6em;
+    padding: 1em;
+}
+#big-button{
+    font-size: 1.5em;
+    padding: 0.8em 0.5em;
 }
