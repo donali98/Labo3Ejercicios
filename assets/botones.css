@@ -3,7 +3,6 @@ button{
     border-radius: 0.4em;
     border: none;
     color: rgb(146, 145, 145);
-
 }
 #normal-button{
     padding: 0.55em;    
@@ -17,10 +16,11 @@ button{
     font-size: 1.5em;
     padding: 0.6em;
 }
-
-.colors button{
+.general-buttons button{
     font-size: 1em;
     padding: 0.67em 1.3em;
+}
+.colors button{
     color: rgb(248, 248, 248);
 }
 .colors #esmerald{
@@ -40,4 +40,39 @@ button{
 }
 .colors #rubi{
     background-color: #d1404e;
+}
+
+.bordered button{
+
+    border: 0.1em solid;
+    background-color: white;
+}
+
+.bordered #simple{
+    border-color: rgb(190, 187, 187);
+    color: rgb(190, 187, 187);
+}
+.bordered #esmerald{
+    border-color: #50c878;
+    color: #50c878;
+}
+.bordered #sky{
+    border-color: rgb(39, 151, 196);
+    color: rgb(39, 151, 196);
+}
+.bordered #amatist{
+    border-color: #9966cc;
+    color: #9966cc;
+}
+.bordered #asphalt{
+    border-color: #7F7F7F;
+    color: #7F7F7F;
+}
+.bordered #topaz{
+    border-color: #FFC87C;
+    color: #FFC87C;
+}
+.bordered #rubi{
+    border-color: #d1404e;
+    color: #d1404e;
 }
